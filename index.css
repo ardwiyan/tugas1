@@ -53,7 +53,7 @@
 }
 .intro {
   display: flex;
-  height: 30vh;
+  height: 50vh;
   color: white;
 }
 .intro > div {
@@ -63,7 +63,7 @@
   flex-grow: 4;
 }
 .beyond {
-  margin-top: 20vh;
+  margin-top: 10vh;
   height: 10vh;
   font-size: x-large;
   font-weight: 600;
@@ -73,11 +73,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0vh 15vw 0vh;
+  margin: 0vh 20vw 0vh;
 }
 .solution > div {
   flex-basis: 25%;
-  height: 25vh;
+  height: 40vh;
   margin: 1px 0.5px;
 }
 
@@ -97,11 +97,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 5vh 15vw;
 }
 
 .price > div {
   flex-basis: 15%;
-  height: 40vh;
+  height: 60vh;
   margin: 5px;
 }
 
@@ -135,15 +136,18 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0vh 15vw 0vh;
+  border: 1px solid;
 }
 
 .ultimate > div {
   display: flex;
   flex-basis: 25%;
+  height: 40vh;
   margin: 1px 1px;
 }
 .ultimate > div:nth-child(2) {
   display: flex;
+  height: auto;
 }
 .ultimate > div:first-child {
   display: flex;
