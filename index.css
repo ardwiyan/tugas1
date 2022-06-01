@@ -200,8 +200,7 @@
 .footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 10vh 12vw 0vh;
+  margin: 10vh 0vh 0vh;
 }
 .footer > div {
   flex-basis: 20%;
