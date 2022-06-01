@@ -150,6 +150,7 @@
   align-items: flex-start;
   flex-direction: column;
   margin-top: 20px;
+  justify-content: flex-end;
 }
 
 .ultimate > div:last-child {
