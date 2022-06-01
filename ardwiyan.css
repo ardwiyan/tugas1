@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ketengah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  text-align: center;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-grey {
+  background-color: grey;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-navi {
+  background-color: navy;
+}
+.bg-pink {
+  background-color: pink;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  height: 5vh;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: xx-large;
+  color: white;
+}
+.intro {
+  display: flex;
+  height: 30vh;
+  color: white;
+}
+.intro > div {
+  flex-grow: 3;
+}
+.intro > div:last-child {
+  flex-grow: 4;
+}
+.beyond {
+  margin-top: 20vh;
+  height: 10vh;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.solution {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0vh 15vw 0vh;
+}
+.solution > div {
+  flex-basis: 25%;
+  height: 25vh;
+  margin: 1px 0.5px;
+}
+
+.support {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10vh 12vw 0vh;
+}
+.support > div {
+  flex-basis: 47%;
+  height: 30vh;
+  margin: 10px;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.price > div {
+  flex-basis: 15%;
+  height: 40vh;
+  margin: 5px;
+}
+
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10vh 12vw 0vh;
+}
+.help > div {
+  flex-basis: 47%;
+  height: 30vh;
+  margin: 10px;
+}
+
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0vh 15vw 0vh;
+}
+
+.company > div {
+  flex-basis: 15%;
+  height: 5vh;
+  margin: 15px;
+}
+
+.ultimate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0vh 15vw 0vh;
+}
+
+.ultimate > div {
+  display: flex;
+  flex-basis: 25%;
+  margin: 1px 1px;
+}
+.ultimate > div:nth-child(2) {
+  display: flex;
+}
+.ultimate > div:first-child {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.ultimate > div:last-child {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px 0px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10vh 15vw 1vh;
+}
+
+.question > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1px 1px;
+}
+
+.question1 > div {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 40%;
+  margin: 1px 1px;
+  justify-content: center;
+  font-size: x-large;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid;
+}
+
+.button {
+  background-color: rgb(16, 179, 255);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5vh 40% 0;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10vh 12vw 0vh;
+}
+.footer > div {
+  flex-basis: 20%;
+  display: flex;
+  padding-top: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: x-large;
+  text-align: center;
+  min-height: 30vh;
+}
